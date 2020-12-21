@@ -1,0 +1,16 @@
+# curl -X PUT 120.76.129.16:9200/index01
+PUT 120.76.129.16:9200/index01
+
+###
+# curl -X GET http://120.76.129.16:9200/index01/_settings
+GET 120.76.129.16:9200/index01/_settings
+
+###
+# curl -X DELETE http://120.76.129.16:9200/index01
+DELETE 120.76.129.16:9200/index01
+
+
+###
+# curl -X GET 'http://120.76.129.16:9200/city/_search?pretty=true'
+GET 120.76.129.16:9200/city/_search?pretty=true&size=1000&q=ParentId:510100000000
+
